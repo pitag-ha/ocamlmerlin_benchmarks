@@ -1,6 +1,0 @@
-pin-depends: [
-  ["merlin-lib.dev" "git+https://github.com/ocaml/merlin#3488e072f121cf021f25603e5c08c6d1199b588d"]
-  ["dot-merlin-reader.dev" "git+https://github.com/ocaml/merlin#3488e072f121cf021f25603e5c08c6d1199b588d"]
-  ["merlin.dev" "git+https://github.com/ocaml/merlin#3488e072f121cf021f25603e5c08c6d1199b588d"]
-  ["cb-check.dev" "git+https://github.com/ocurrent/current-bench.git"]
-]

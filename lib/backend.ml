@@ -116,13 +116,14 @@ end
 
 module Benchmark_metric = struct
   type t = { name : string; mutable value : int list; units : string }
-  [@@deriving yojson_of]
+  [@@deriving yojson_of] [@@warning "-unused-field"]
 end
 
 module StringMap = Map.Make (String)
 
 module Benchmark_result = struct
   type t = { name : string; mutable metrics : Benchmark_metric.t StringMap.t }
+  [@@warning "-unused-field"]
 
   let update (result : t) (metric : Benchmark_metric.t) =
     let f x =

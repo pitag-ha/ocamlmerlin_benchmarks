@@ -9,8 +9,8 @@ license: "MIT"
 homepage: "https://github.com/pitag-ha/merl-an"
 bug-reports: "https://github.com/pitag-ha/merl-an/issues"
 depends: [
-  "ocaml"
-  "dune" {>= "3.2"}
+  "dune" {>= "3.17"}
+  "ocaml" {>= "5.3.0"}
   "ppxlib"
   "yojson"
   "fpath"
@@ -19,13 +19,14 @@ depends: [
   "ppx_deriving_yojson"
   "ppx_enumerate"
   "ppx_fields_conv"
-  "ppx_yojson_conv" {<= "v0.15.1"}
+  "ppx_yojson_conv"
   "ptime"
   "merlin-lib"
   "dot-merlin-reader"
   "merlin" {with-test}
   "cb-check" {with-test}
-  "ocamlformat" {with-dev-setup & = "0.24.1"}
+  "ocaml-lsp-server" {with-dev-setup}
+  "ocamlformat" {with-dev-setup}
   "odoc" {with-doc}
 ]
 build: [
@@ -43,9 +44,3 @@ build: [
   ]
 ]
 dev-repo: "git+https://github.com/pitag-ha/merl-an.git"
-pin-depends: [
-  ["merlin-lib.dev" "git+https://github.com/ocaml/merlin#3488e072f121cf021f25603e5c08c6d1199b588d"]
-  ["dot-merlin-reader.dev" "git+https://github.com/ocaml/merlin#3488e072f121cf021f25603e5c08c6d1199b588d"]
-  ["merlin.dev" "git+https://github.com/ocaml/merlin#3488e072f121cf021f25603e5c08c6d1199b588d"]
-  ["cb-check.dev" "git+https://github.com/ocurrent/current-bench.git"]
-]

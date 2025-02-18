@@ -37,27 +37,27 @@
     "merlin-repository": {
       "flake": false,
       "locked": {
-        "lastModified": 1689969475,
-        "narHash": "sha256-AxPK7hFsq0ttycaQXTUVnSeY4V21P6VDzrjWJCY3ExI=",
-        "owner": "pitag-ha",
+        "lastModified": 1738749800,
+        "narHash": "sha256-TnEgbThb85+8dt0ihygcUYAufZTJK6hm7dkjeT+GLcc=",
+        "owner": "ocaml",
         "repo": "merlin",
-        "rev": "4b6af887232cf9ca79d2eef987ea8576f6aa3e9f",
+        "rev": "102eee422ce772174c71a22d97bdc7877918e509",
         "type": "github"
       },
       "original": {
-        "owner": "pitag-ha",
-        "ref": "add-query-num-414",
+        "owner": "ocaml",
+        "ref": "main",
         "repo": "merlin",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1687338922,
-        "narHash": "sha256-rKVjpbvjUEJmn7tiKaxAgcorPlaT2F4SLJGlCrM2PXI=",
+        "lastModified": 1739878349,
+        "narHash": "sha256-UfMepBpMZOyC2i2NdhjDTvs5wNAm4sIcER5iimFNswE=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "c50fb9604fd36c94676a6815dc402ab3012bc89a",
+        "rev": "c04263876300789835d99eecb6b940f15648d1d8",
         "type": "github"
       },
       "original": {

@@ -10,7 +10,7 @@ type sample = {
   query_type : Merlin.Query_type.t;
 }
 
-module Make (Backend : Backend.Data_tables) : sig
+module Make (_ : Backend.Data_tables) : sig
   type t
   (** The data that's being collected by the tool. Consists of two pieces of
       information: the configuration with which the data is collected
